@@ -11,4 +11,5 @@ import com.tcs.training.Entity.Cart;
 public interface CartRepository extends JpaRepository<Cart, Long> {
     
 	Optional<Cart> findByUserId(int i);
+	
 }
